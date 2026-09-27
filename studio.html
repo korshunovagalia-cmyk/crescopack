@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Studio — Cresco Branding Solutions</title>
+<meta name="description" content="Cresco is led by Galina Korshunova, brand designer and Art Director with 23+ years in marketing and branding agencies.">
+<meta property="og:title" content="Studio — Cresco Branding Solutions">
+<meta property="og:description" content="Cresco is led by Galina Korshunova, brand designer and Art Director with 23+ years in marketing and branding agencies.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/founder.jpg">
+<link rel="icon" type="image/png" href="images/logo-02.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<div class="announce" id="announce">
+  <a class="announce__link" href="contact.html">Book now! Click here to get started!</a>
+  <button class="announce__close" type="button" aria-label="Dismiss">&times;</button>
+</div>
+<script>
+(function () {
+  try {
+    if (localStorage.getItem('cresco-announce-dismissed') === '1') {
+      document.getElementById('announce').style.display = 'none';
+    }
+  } catch (e) {}
+})();
+</script>
+<header class="nav">
+  <a class="nav__logo" href="index.html" aria-label="Cresco Branding Solutions — home">
+    <img src="images/logo-01.png" alt="Cresco" width="4324" height="851">
+  </a>
+  <nav class="nav__links" aria-label="Primary">
+      <a href="index.html">Work</a>
+      <a href="services.html">Services</a>
+      <a href="process.html">Process</a>
+      <a href="studio.html" aria-current="page">Studio</a>
+      <a href="contact.html">Contact</a>
+  </nav>
+  <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+</header>
+
+<div class="nav__overlay" id="menu">
+    <a href="index.html">Work</a>
+    <a href="services.html">Services</a>
+    <a href="process.html">Process</a>
+    <a href="studio.html">Studio</a>
+    <a href="contact.html">Contact</a>
+</div>
+
+<main>
+  <section class="wrap hero">
+    <h1 class="display reveal">Studio</h1>
+    <p class="lead measure hero__lead reveal">A strategic branding agency that helps businesses build
+      strong, differentiated brands through visual identity, storytelling, and digital presence.</p>
+  </section>
+
+  <section class="wrap">
+    <div class="statement" style="border-top:0;padding-top:0">
+      <p class="statement__text reveal">Your reliable<br>strategic branding partner.</p>
+    </div>
+  </section>
+
+  <section class="wrap split split--portrait">
+    <figure class="reveal" style="margin:0">
+      <img src="images/founder.jpg" alt="Galina Korshunova, founder of Cresco Branding Solutions" loading="lazy">
+    </figure>
+    <div class="reveal">
+      <p class="meta muted">Founder</p>
+      <h2 class="display" style="margin-top:.35em">Galina<br>Korshunova</h2>
+      <p class="body-lg measure" style="margin-top:2em">Brand designer and Art Director with 23+ years
+        of experience, both in marketing and branding agencies, highly skilled with brand strategy,
+        logo &amp; identity design, FMCG packaging, able to create visual solutions that convince
+        clients to engage with their brands across a wide range of on and offline channels.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer__inner meta">
+    <span>Cresco Branding Solutions</span>
+    <a href="mailto:hello@crescobrand.com">hello@crescobrand.com</a>
+    <a href="https://wa.me/971542450969" rel="noopener">+971 54 245 0969</a>
+    <a href="https://crescobrand.com" rel="noopener">crescobrand.com</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
