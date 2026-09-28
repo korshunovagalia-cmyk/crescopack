@@ -148,9 +148,8 @@ a { color: inherit; text-decoration: none; }
 
 .nav__links {
   display: flex;
-  flex: 1;
-  justify-content: space-between;
-  max-width: 62%;
+  align-items: center;
+  gap: 28px;
   margin-left: auto;
 }
 
@@ -163,6 +162,25 @@ a { color: inherit; text-decoration: none; }
 
 .nav__links a:hover,
 .nav__links a[aria-current='page'] { color: var(--muted); }
+
+.nav__cta {
+  flex-shrink: 0;
+  margin-left: 20px;
+  padding: 9px 20px;
+  background: #fff;
+  border: 1px solid var(--fg);
+  color: var(--fg);
+  font-size: 13px;
+  letter-spacing: -.01em;
+  text-transform: uppercase;
+  transition: background .25s var(--ease), color .25s var(--ease), border-color .25s var(--ease);
+}
+
+.nav__cta:hover {
+  background: var(--fg);
+  border-color: var(--fg);
+  color: #fff;
+}
 
 .nav__toggle {
   display: none;
@@ -195,6 +213,7 @@ body.nav-open { overflow: hidden; }
 
 @media (max-width: 860px) {
   .nav__links { display: none; }
+  .nav__cta { display: none; }
   .nav__toggle { display: block; }
 }
 

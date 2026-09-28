@@ -26,12 +26,12 @@
 
     sourceNodes.forEach(function (node) {
       if (node.nodeName === 'BR') {
-        chars.push(typeEl.appendChild(document.createElement('br')));
+        chars.push(typeEl.appendChild(node.cloneNode(false)));
       } else {
         Array.prototype.forEach.call(node.textContent, function (ch) {
           var span = document.createElement('span');
           span.className = 'char';
-          span.textContent = ch === ' ' ? '\u00A0' : ch;
+          span.textContent = ch;
           typeEl.appendChild(span);
           chars.push(span);
         });
