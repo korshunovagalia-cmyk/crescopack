@@ -17,19 +17,6 @@
 <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
-<div class="announce" id="announce">
-  <a class="announce__link" href="../contact.html">Book now! Click here to get started!</a>
-  <button class="announce__close" type="button" aria-label="Dismiss">&times;</button>
-</div>
-<script>
-(function () {
-  try {
-    if (localStorage.getItem('cresco-announce-dismissed') === '1') {
-      document.getElementById('announce').style.display = 'none';
-    }
-  } catch (e) {}
-})();
-</script>
 <header class="nav">
   <a class="nav__logo" href="../index.html" aria-label="Cresco Branding Solutions — home">
     <img src="../images/logo-01.png" alt="Cresco" width="4324" height="851">
@@ -41,7 +28,6 @@
       <a href="../studio.html">Studio</a>
       <a href="../contact.html">Contact</a>
   </nav>
-  <a class="nav__cta" href="../contact.html">Get Started</a>
   <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
 </header>
 
@@ -76,7 +62,6 @@
       <div class="fig fig--half reveal"><img src="../images/work/aa-plus/07.jpg" alt="AA+ antiage skincare packaging" loading="lazy"></div>
       <div class="fig fig--half reveal"><img src="../images/work/aa-plus/08.jpg" alt="AA+ antiage skincare packaging" loading="lazy"></div>
       <div class="fig fig--half reveal"><img src="../images/work/aa-plus/09.jpg" alt="AA+ antiage skincare packaging" loading="lazy"></div>
-      <div class="fig fig--full reveal"><img src="../images/work/aa-plus/10.png" alt="AA+ antiage skincare packaging" loading="lazy"></div>
       <div class="fig fig--half reveal"><img src="../images/work/aa-plus/11.jpg" alt="AA+ antiage skincare packaging" loading="lazy"></div>
       <div class="fig fig--half reveal"><img src="../images/work/aa-plus/12.jpg" alt="AA+ antiage skincare packaging" loading="lazy"></div>
       <div class="fig fig--half reveal"><img src="../images/work/aa-plus/13.jpg" alt="AA+ antiage skincare packaging" loading="lazy"></div>
@@ -90,7 +75,7 @@
     <nav class="pager meta" aria-label="Projects">
       <a href="solena.html">&#8592;&ensp;Solėna</a>
       <a href="../index.html">All work</a>
-      <a href="nectare.html">Nectare&ensp;&#8594;</a>
+      <a href="flow.html">Flow&ensp;&#8594;</a>
     </nav>
   </section>
 </main>
