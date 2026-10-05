@@ -425,7 +425,7 @@ body.nav-open { overflow: hidden; }
 .step:last-of-type { border-bottom: 1px solid var(--rule); }
 
 .step__body p { margin: 0; }
-.step__outcome { margin-top: 1.5em; color: var(--muted); }
+.step__outcome { margin-top: 2.6em; color: var(--muted); }
 
 @media (max-width: 860px) {
   .step { grid-template-columns: 2.5rem 1fr; }
