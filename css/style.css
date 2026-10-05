@@ -144,7 +144,7 @@ a { color: inherit; text-decoration: none; }
 }
 
 .nav__logo { display: block; }
-.nav__logo img { height: 15px; width: auto; }
+.nav__logo img { height: 26px; width: auto; }
 
 .nav__links {
   display: flex;
