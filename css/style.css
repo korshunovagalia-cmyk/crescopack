@@ -149,7 +149,9 @@ a { color: inherit; text-decoration: none; }
 .nav__links {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 28px;
+  flex: 0 1 70vw;
   margin-left: auto;
 }
 
