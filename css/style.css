@@ -228,7 +228,7 @@ body.nav-open { overflow: hidden; }
   padding-bottom: clamp(40px, 6vw, 80px);
 }
 
-.hero__lead { margin-top: clamp(20px, 3vw, 34px); }
+.hero__lead { margin-top: clamp(20px, 3vw, 34px); text-transform: none; }
 
 /* --------------------------------------------------------- type anim --- */
 
