@@ -7,8 +7,8 @@
 
 :root {
   --bg: #fbf5f4;
-  --fg: #af0637;
-  --muted: #af0637;
+  --fg: #861a2e;
+  --muted: #861a2e;
   --rule: #e6e6e6;
 
   --gutter: clamp(20px, 3.5vw, 56px);
