@@ -169,7 +169,7 @@ a { color: inherit; text-decoration: none; }
 
 .nav__cta {
   flex-shrink: 0;
-  border-radius: 12px;
+  border-radius: 999px;
   margin-left: 20px;
   padding: 9px 20px;
   background: var(--bg);
@@ -270,7 +270,7 @@ body.nav-open { overflow: hidden; }
 }
 
 .btn {
-  border-radius: 12px;
+  border-radius: 999px;
   display: inline-flex;
   align-items: center;
   gap: 10px;
